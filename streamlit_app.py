@@ -4,7 +4,7 @@ import pandas as pd
 
 
 # Write directly to the app
-st.title("Onboard-13 Sales")
+st.title("Onboard 13 Sales")
 st.write(
     """Counts
     """
@@ -36,7 +36,7 @@ df = pd.DataFrame(result,
 
 # Create a simple bar chart
 # See docs.streamlit.io for more types of charts
-st.subheader("Onboard-13 Sales")
+st.subheader("Onboard 13 Sales")
 st.bar_chart(data=df, x="Name", y = "Total Sales")
 
 st.subheader("Underlying data")
